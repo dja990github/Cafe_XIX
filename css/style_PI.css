@@ -1,0 +1,606 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+}    
+
+
+body{
+    background-color: #fceaa2 ;
+   /* background-image: url( ./images/fundo.jpg);
+    background-size: cover;   */
+}
+
+
+
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8%;
+}
+#menu-horizontal{
+    position: fixed;
+
+    background-color: rgb(32, 14, 1);
+    border-radius: 15vh;
+    margin: 3%;
+    padding: 1%; 
+    margin-left: 35%;
+
+}
+#menu-horizontal ul li{
+
+    background-color: rgb(32, 14, 1);
+    display: inline;
+    
+}
+#menu-horizontal ul li a{
+    margin-inline: 1vh;
+    color: #ffffff;
+    border-style:double;
+    border-color: rgb(53, 24, 3);
+}
+#menu-horizontal ul li a:hover{
+    
+    display: inline;
+    background-color: #fceaa2;
+    color: black;
+    padding: 1%;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+    padding: 1vh;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#CaféIMG1{
+    margin: 1% 0 0 2%;
+    width: 5%;
+    height: 5%;
+}
+#CaféIMG2{
+    margin: 1% 2% 0 0;
+    width: 5%;
+    height: 5%;
+}
+#CaféIMG1:hover{
+    filter: sepia(70%);
+}
+#CaféIMG2:hover{
+    filter: sepia(70%);
+}
+
+#SXIXtxt{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: right;
+    margin: 1vh;
+    margin-right: 4VH;
+    font-size: 150%;
+}
+
+
+#textP{
+    margin-left: 35%;
+    font-size: 250%;
+    padding: 2%;
+}
+#T1{
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    padding-inline: 30px;
+    padding-bottom: 30px;
+}
+#TXT{
+    margin: 1%;
+}
+#LinhaEx{
+    display: flex;
+}
+#linhaExemploIMG{
+    padding: 55px 20px 20px 20px;
+    width: 60%;
+    height: 40%;
+}
+#TXTright{
+    margin: 70px;
+}
+#TXTright2{
+    margin-top: 5%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+#TXTExemplo2{
+    margin-top: 10px;
+}
+
+#IMGPF{
+    margin-left: 30px;
+    margin-top: 60px;
+}
+#IMGPF2{
+    width: 30%;
+    margin: 10px;
+    margin-left: 700px;
+}
+
+
+
+
+
+
+
+#Prod1{
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    
+}
+#PRODtxt1{
+    text-align: center;
+    padding-top: 1%;
+    margin: 1%;
+}
+#TerraDcafe{
+    display: flex;
+    justify-content: center;
+
+}
+#PRODtxt2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1%;
+}
+
+#txtPROD2-1{
+    margin: 2%;
+}
+#DINL{
+    margin-inline: 2%;
+    display: flex;
+}
+#IMGdinl{
+    margin-left: 2VH;
+    width: 100%;
+    margin-bottom: 5VH;
+}
+#IMGC{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 5%;
+    margin-bottom: 5%;
+}
+#img1PC{
+    width: 60%;
+}
+#img2PC{
+    width: 60%;
+}
+#img3PC{
+    width: 70%;
+}
+#IMG2PROD{
+    display: flex;
+    justify-content: center;
+}
+#PROD3{
+    display: flex;
+    margin-inline: 5vh;
+    margin-bottom: 3vh;
+}
+
+
+#CafeINDN{
+    display: flex;
+    justify-content: center;
+    margin-left: 2%;
+    }
+#IMGCI1{
+    width: 50%;
+
+}
+#IMGCI2{
+    width: 50%;
+
+}
+#IMGCI3{
+    width: 50%;
+}
+
+
+
+#TrajetoT{
+    margin: 2%;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+#TXTfinalD{
+    align-content: center;
+}
+#CafeBR{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10vh;
+}
+#txtCBR1{
+    margin: 10vh  20vh 10vh 0;
+}
+#CafeIMGBR{
+    padding-left: 7%;
+    margin-top: 12vh;
+    width: 90%;
+
+}
+#LevandoCafe{
+    margin: 20px;
+    width: 50%;
+    margin: 0 0 0px 20px;
+    border-radius: 5vh;
+}
+#LevandoCafe2{
+    width: 50%;
+    margin-top: 10vh;
+    border-radius: 5vh;
+}
+#txtCBR2{
+    margin-top: 10vh;
+}
+#txt{
+    margin-inline: 7vh;
+
+}
+#RODtxt{
+    margin-top: 10vh;
+}
+
+
+
+
+
+
+/* fruto */
+
+h2 {
+    margin-top: 0vh;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#IMG-secret{
+    filter:brightness(20%)
+}
+#CRFL1{
+    display: flex;
+    justify-content: space-around; 
+    margin-inline: 5%;
+}
+
+#CRFTXT1{
+    font-style: italic;
+    margin-right: 15%;
+}
+#Carac-1{
+    width: 40%;
+
+    margin: 3vh;
+}
+#Carac-2{
+    width: 40%;
+
+    margin: 3vh;
+    margin-left: 50%;
+}
+#L1CF{
+       display: flex;
+       justify-content: space-around;
+}
+#IMGCF3{
+    width: 400%;
+}
+#TXTCF3{
+
+    margin-left: 25%;
+}
+#L2CF{
+    margin-inline: 3vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/*Tabelas*/
+
+#LTXT{
+    margin: 10px;
+    display: flex;
+    justify-content:center;
+    margin-top: 5%;
+    font-size: 500%;
+}
+h2{
+    padding: 10px;
+    font-size: 4vh;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+#tabelas {
+    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+}
+#tabela-1 img{
+    padding: 07%;
+    width: 90%;                          /*po*/
+    height: 80%;
+}
+#IMGT1:hover{
+    transition-duration: 1s;
+    width: 100%;
+    height: 80%;
+}
+#tabela-1 p{
+    text-align: justify;
+    padding: 0vh 9.5vh;
+}
+#tabela-2 p {
+    text-align: justify;
+    padding: 0vh 3vh;
+}
+#tabela-2 img{
+    padding: 20px;
+    width: 70%;
+    height: 70%;
+}
+#tabelas-2{
+    display: flex;                          /*qui quares*/
+    justify-items: center;
+    justify-content: space-around;
+    text-align: justify;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+#tabela-3 {
+    text-align: justify;
+}
+#tabela-3 img{
+    padding: 10px;
+    width: 100%;
+    height: 50%;                  
+}
+#tabela-3 p{
+    padding: 0vh 0vh;
+}
+#tabela-4 {
+    text-align: justify;
+}
+#tabela-4 img{
+    margin-left: 20%;
+    width: 67%;
+    height: 70%;
+
+}
+#tabela-4 p {
+       padding-inline: 20%;
+}
+
+
+
+
+/* Café e escravidão */
+
+#T1CeE{
+    font-style: italic;
+    margin: 10px;
+    display: flex;
+    justify-content:center;
+    margin-top: 5%;
+    font-size: 300%;
+    margin-bottom: 5%;
+}
+#L1{
+    display: flex;
+    justify-content: space-around;
+
+}
+#IMGCeE1{
+    width: 50%;
+    margin-left: 10vh;
+}
+#L2{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+
+}
+#CeEimgC{
+    margin-top: 2%;
+    width: 60%;
+    margin-left: 20%;
+}
+#CeEimg3{
+    width: 100%;
+}
+#TXTCeEF{
+    margin-inline: 5%;
+}
+#TXTCeEF2{
+    margin-inline: 5%;
+    margin-bottom: 10vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*NADA*/
+
+#NDADSPIDER{
+    width: 5vh;
+}
+
+/*Nothing*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    display:flex;
+    background-color:black;
+    color: #ffe6eb;
+    padding: 3vh
+}
+
+
+
+
+
+#footerD{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 5vh;
+}
+ul{
+    list-style:upper-roman;
+}
+ul li a{
+    color: rgb(0, 80, 192);
+    text-decoration: none;
+}
+ul li a:hover{
+    color:red;
+}
+#IMGsF{
+    width: 5vh;
+}
+b a{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+/*Só tem na página produçaõ*/
+
+
+
+
+#footerPD{
+    display: flex;
+    justify-content: space-between;
+    color:azure;
+}
+#LGFOOT{
+    filter:grayscale(100%);
+    width: 5vh;
+    height: 5vh;
+}
+#LGFOOT:hover{
+    filter: none;
+}
+
+
+@media (max-width: 600px) {
+    
+  }
+
+
+
+
+
+
+
+
